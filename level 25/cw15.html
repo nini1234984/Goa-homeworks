@@ -1,0 +1,80 @@
+<!-- 1) კომენტარების სახით ახსენით რა არის drop-down menus, რისთვის ვიყენებთ და როგორ ვქმნით.
+ drop down menu  aარის ელემენტი რომელიცაჩვენებს ჩამონათვალს მხოლოდ მაშინ, 
+როდესაც მომხმარებელი დააწკაპუნებს -->
+
+
+
+<!-- 2) შექმენით drop-down menu რომლის ჩამონათვლაშიც ასარჩევად იქნება პროგრამირების ენები.  -->
+
+
+        
+  
+   
+
+<!-- 3) შექმენით შექმენით drop-down menu რომლის ჩამონათვლაშიც ასარჩევად იქნება 5 ნებისმიერი კერძი. ამ 5 კერძიდან ერთ-ერთს გაუწერეთ selected ატრიბუტი რომ გახდეს პირველხარისხოვანი. -->
+
+       
+
+<!-- 4) შექმენით მსგავსი ტიპის form-ები: --> 
+
+        
+      
+<html>
+    <head>
+        <title>Random</title>
+    </head>
+    <body>
+        <label for="languages">აირჩიეთ პროგრამირების ენა:</label>
+        <select id="languages" name="languages">
+            <option value="python">Python</option>
+            <option value="javascript">JavaScript</option>
+            <option value="java">Java</option>
+            <option value="css">css</option>
+            <option value="c++">c++</option>
+        </select>
+
+        <br>
+         <label for="cookies"> რომელი საჭმელია შენი ფავორიტი:</label>
+        <select name="cookies" id="cookies">
+            <option value="ხაჭაპური">ხაჭაპური</option>
+            <option value="ხინკალი">ხინკალი</option>
+            <option value="ჩახოხბიოლი">ჩახოხბილი</option>
+            <option value="ბორში" selected>ბორში </option>
+        </select>
+        
+    
+
+        <br>
+        <br>
+
+        <h1>REGISTER</h1>
+
+        <form >
+            <label for="Name">Name</label>
+            <br>
+            <input type="text" placeholder="Enter your name" id="Name" required>
+            <br><br>
+            <label for="Lastname">Last name</label>
+            <br>
+            <input type="text" placeholder="Enter your last name" id="Lastname" required>
+            <br><br>
+            <label for="Email">Email</label>
+            <br>
+            <input type="email" placeholder="Enter your email" id="Email" required>
+            <br><br>
+            <label for="AGE">Age</label>
+            <br>
+            <input type="text" placeholder="Enter your age" id="AGE" required>
+            <br>
+             <label for="color">what is your favorite color:</label>
+            <select name="color" id="color">
+                <option value="red">red</option>
+                <option value="blue">blue</option>
+                <option value="green">green</option>
+            </select>
+            <button type="submit">submit</button>
+       </form>
+
+    </body>
+</html> 
+    
