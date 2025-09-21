@@ -1,0 +1,31 @@
+<!-- 1) კომენტარებით ახსენით რა არის Inline და Block Level ელემენტები.
+ block level elementi იკავებს იმდენ ზომას რამდენსაც იკავებს მშობელი ანუ body ელემენტი
+ ხოლო inline ელემეტი იკავებს მხოლოდ იმ ზომას რამდენიც საჭიროა თეგისთვის ან ტექსისთვის
+
+2) კომენტარებით ახსენით რა არის div თეგი და რისთვის გამოიყენება ის
+div თეგი გამოიყენება საიტიზე ტექსტის სწორად განლაგებისთვის და ეს ხელს უწყობს დიზაინის სწორად აგებაში
+
+3) შექმენით 5 პარაგრაფი და მოათავსეთ ის ერთ div თეგში. სტილის მემკვიდრეობის(style inheritance) მეშვეობით გაუწერეთ მათ ერთი და იგივე ტექსტის და უკანა ფონის ფერი.
+
+ამ 5 პარაგრაფიდან 3-ს გაუწერეთ განსხვევებული სტილები და ნახეთ შედეგი.(გამოიყენეთ სხვა ნასწავლი css-ის კუთვნილებებიც)
+
+div-ის გარეთ დაწერე ერთი პარაგრაფი და კომენტარით ახსენით, რატომ არ გადაედო მას მემკვიდრეობით სტილები -->
+<!-- მათ იმიტომ არ გადაედოთ მემკვიდრეობითი სტილი რადგან მე კონკრეტულად იმ თეგს გავუწერე სხვა style რომელიც მინდოდა შეცვლილიყო 
+div თეგმა შუცვალა მათ სტილი მაგრამ მე კონკრეტულად რამდენიმეს გავუწერე საკუტარი სტილი -->
+ <html>
+    <head>
+        <title>rando</title>
+    </head>
+    <body>
+        <div style="color: blueviolet; background-color: blanchedalmond;">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p style="color: black; font-size: large; background-color: paleturquoise;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p style="background-color: rgb(42, 165, 149);">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p style="font-size: larger;" >Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+           
+        </div>
+    </body>
+ </html>
+ <!-- div-ის გარეთ დაწერე ერთი პარაგრაფი და კომენტარით ახსენით, რატომ არ გადაედო მას მემკვიდრეობით div-ისგან სტილები 
+  ამ პარაგრაფს არ გადაედება მემკვიდრეობა რადგან div თეგში არ იქნება ჩანესტილი და ის უკვე სხვა თგად ითლება-->
