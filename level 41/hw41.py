@@ -25,10 +25,9 @@
 # 9) დაწერე ფუნქცია სახელად `square`, რომელსაც გადაეცემა ერთი რიცხვი.
 # დააბრუნე ამ რიცხვის კვადრატი.
 
-def add_number():
-    a=1
-    b=4
-    print(a+b)
+def add_number(a, b):
+    return a+b
+    
 add_number()
 
 def average(num1, num2, num3):
@@ -38,9 +37,9 @@ print(numbers)
 
 def even_or_odd(num1):
     if num1 %2==0:
-        return "this number is odd"
-    else:
         return "this number is even"
+    else:
+        return "this number is odd"
     
 number2=even_or_odd(2)
 print(number2)
