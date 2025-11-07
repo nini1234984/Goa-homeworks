@@ -1,0 +1,40 @@
+.nini{
+    color: brown;
+    background-color: bisque;
+}
+.nini:hover{
+    color: rgb(252, 12, 124);
+    background-color: black;
+}
+
+#nini1{
+    width:200px;
+    height:200px;
+    color: rgb(15, 188, 12);
+    background-color: aqua;
+    border-color: blue;
+    border-width: 5px;
+    border-radius: 50px;
+
+}
+
+#nini2{
+    width:100px;
+    height:100px;
+    color: rgb(235, 19, 102);
+    background-color: rgb(71, 7, 200);
+    border-color: rgb(212, 15, 15);
+    border-width: 5px;
+    border-radius: 50px;
+
+}
+
+.niniko{
+    color: rebeccapurple;
+    background-color: aquamarine;
+}
+
+.niniko:hover{
+    color: blue;
+    background-color: brown;
+}

@@ -1,0 +1,48 @@
+#nini1{
+    color: aquamarine;
+    text-align: center;
+    text-decoration: wavy;
+    font-size: small;
+    text-transform: uppercase;
+}
+
+#nini2{
+     color: rgb(178, 99, 29);
+    text-align: left;
+    text-decoration: wavy;
+    font-size: large;
+    text-transform: lowercase;
+}
+
+#nini3{
+     color: rgb(156, 9, 109);
+    text-align: center;
+    text-decoration: underline;
+    font-size: small;
+    text-transform: uppercase;
+    width: 30px;
+}
+
+#nini4{
+     color: rgb(220, 16, 47);
+    text-align: center;
+    text-decoration: wavy;
+    font-size: small;
+    text-transform: uppercase;
+}
+
+#nini5{
+     color: rgb(102, 195, 26);
+    text-align: center;
+    text-decoration: wavy;
+    font-size: small;
+    text-transform: uppercase;
+}
+
+#nini6{
+     color: rgb(32, 59, 198);
+    text-align: center;
+    text-decoration:dotted;
+    font-size: larger;
+    text-transform: uppercase;
+}

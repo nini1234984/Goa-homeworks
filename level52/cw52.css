@@ -1,0 +1,17 @@
+#mytable td{
+    border: 1px solid black;
+    text-align: center;
+    border-collapse:unset;
+    border-style:none;
+    
+}
+
+#mytable #tr11{
+    background-color: rgb(89, 143, 9);
+
+}
+
+#mytable #mytr{
+    color: rgb(2, 132, 2);
+    
+}
