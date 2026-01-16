@@ -1,0 +1,12 @@
+.hover {
+  padding: 10px 20px;
+  background-color: lightblue;
+  border: none;
+  cursor: pointer;
+}
+
+/* მაუსის მიყვანისას */
+.hover:hover {
+  background-color: orange;
+  border: 2px solid black;
+}

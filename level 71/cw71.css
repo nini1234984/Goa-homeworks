@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    width: 100vw;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .box {
+    background-color: blue;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .box {
+    background-color: green;
+  }
+}

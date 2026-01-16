@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+
+.ninisi {
+  width: 80px;
+  height: 80px;
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #e55;
+  border-radius: 50%;
+  animation: nini 1s  infinite;
+}
+
+
+@keyframes nini {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

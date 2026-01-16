@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+p {
+  font-family: Arial, sans-serif;
+}
+
+
+.font1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+}
+
+/* მეორე შრიფტი */
+.font2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+}
+
+/* მესამე შრიფტი */
+.font3 {
+  font-family: 'Lobster', cursive;
+  font-size: 28px;}

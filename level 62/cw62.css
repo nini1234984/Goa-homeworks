@@ -1,0 +1,77 @@
+/* 1) შექმენით div ელემენტი, წამოიღეთ css ში და მიანიჭეთ სტილი. თქვენი დავალებაა წამოღებულ div ელემენტზე გამოიყენოთ transform მნიშნელობა translate მნიშნელობით.
+
+2) შექმენით 2-ე div ელემენტი, წამოიღეთ css ში და მიანიჭეთ სტილი. თქვენი დავალებაა წამოღებულ div ელემენტზე გამოიყენოთ transform მნიშნელობა scale მნიშნელობით.
+
+3) შექმენით 3-ე div ელემენტი, წამოიღეთ css ში და მიანიჭეთ სტილი. თქვენი დავალებაა წამოღებულ div ელემენტზე გამოიყენოთ transform მნიშნელობა skew მნიშნელობით.
+
+4) შექმენით 4-ე div ელემენტი, წამოიღეთ css ში და მიანიჭეთ სტილი. თქვენი დავალებაა წამოღებულ div ელემენტზე გამოიყენოთ transform მნიშნელობა rotate მნიშნელობით.
+
+5) გამოიყენეთ ყველა ზემოთ ჩამოთვლილ დავალებაზე transition თვისება, შესაბამისი მნიშვნელობებით. */
+ body{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+#nini{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nini:hover{
+    transform: translate(200px);
+    transition-duration: 2s;
+    background-color: aquamarine;
+}
+
+#nini1{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nini1:hover{
+    transform: scale(1.8);
+    transition: ease-out;
+}
+
+#nini2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(196, 26, 26);
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nini2:hover{
+    transform: skew(20deg);
+    transition: ease-in;
+}
+
+#nini3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(57, 20, 178);
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nini3:hover{
+    transform: rotate(60deg);
+    transition-delay: 0.2s;
+    background-color: blanchedalmond;
+}
