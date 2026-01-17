@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Single Price Grid</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #e6eff6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 650px;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.top {
+  padding: 40px;
+}
+
+.top h1 {
+  color: #2ab2af;
+  margin-bottom: 15px;
+}
+
+.top h3 {
+  color: #c0df34;
+  margin-bottom: 10px;
+}
+
+.top p {
+  color: #777;
+  line-height: 1.6;
+}
+
+.bottom {
+  display: flex;
+}
+
+.left {
+  background: #2ab2af;
+  color: white;
+  padding: 40px;
+  width: 50%;
+}
+
+.price {
+  font-size: 32px;
+  margin: 15px 0;
+}
+
+.price span {
+  font-size: 16px;
+  color: #bff3f2;
+}
+
+button {
+  margin-top: 25px;
+  width: 100%;
+  padding: 15px;
+  background: #c0df34;
+  border: none;
+  border-radius: 5px;
+  color: #2c3e50;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.right {
+  background: #4bbebc;
+  color: white;
+  padding: 40px;
+  width: 50%;
+}
+
+.right ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.right li {
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+    </style>
+
+  <div class="container">
+    <div class="top">
+      <h1>Join our community</h1>
+      <h3>30-day, hassle-free money back guarantee</h3>
+      <p>
+        Gain access to our full library of tutorials along with expert code reviews.
+        Perfect for any developers who are serious about honing their skills.
+      </p>
+    </div>
+
+    <div class="bottom">
+      <div class="left">
+        <h2>Monthly Subscription</h2>
+        <p class="price">$29 <span>per month</span></p>
+        <p>Full access for less than $1 a day</p>
+        <button>Sign Up</button>
+      </div>
+
+      <div class="right">
+        <h2>Why Us</h2>
+        <ul>
+          <li>Tutorials by industry experts</li>
+          <li>Peer & expert code review</li>
+          <li>Coding exercises</li>
+          <li>Access to GitHub repos</li>
+          <li>Community forum</li>
+          <li>Flashcard decks</li>
+          <li>New videos every week</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
